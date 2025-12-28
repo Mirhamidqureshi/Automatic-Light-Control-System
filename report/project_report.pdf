@@ -1,1 +1,113 @@
+📄 AUTOMATIC LIGHT CONTROL SYSTEM USING ARDUINO
+Semester Project Report
+Submitted by
 
+Hamid Ali
+
+Degree
+
+Computer Systems Engineering
+
+Institution
+
+[Your University Name]
+
+Year
+
+2025
+
+ABSTRACT
+
+This project presents an automatic light control system using Arduino, PIR motion sensor, and Light Dependent Resistor (LDR). The system automatically turns the light ON when motion is detected in low light conditions and turns it OFF when sufficient light is available or no motion is detected. The main goal of this project is to reduce energy consumption and demonstrate a basic automation system using embedded technology.
+
+INTRODUCTION
+
+Automation systems play an important role in modern electrical and electronic applications. Manual control of lights often leads to unnecessary power wastage. An automatic light control system provides an efficient solution by ensuring that lights are only turned ON when required. This project focuses on designing a low-cost and simple automatic lighting system using Arduino, which can be used in homes, offices, corridors, and parking areas.
+
+OBJECTIVES
+
+The main objectives of this project are:
+
+To design an automatic light control system
+
+To reduce electricity wastage
+
+To understand sensor-based automation
+
+To implement Arduino-based control logic
+
+To gain hands-on experience with embedded systems
+
+COMPONENTS USED
+
+The following components are used in this project:
+
+Arduino Uno
+
+PIR Motion Sensor
+
+Light Dependent Resistor (LDR)
+
+Relay Module (5V)
+
+Bulb (Load)
+
+10kΩ Resistor
+
+Jumper Wires
+
+WORKING PRINCIPLE
+
+The system uses two sensors: a PIR motion sensor and an LDR. The PIR sensor detects the presence of human motion, while the LDR measures the ambient light intensity. When motion is detected and the surrounding light level is low, the Arduino processes the sensor data and activates the relay module to turn the light ON. If no motion is detected or the light level is sufficient, the Arduino turns the relay OFF, switching the light OFF. This ensures energy-efficient operation.
+
+CIRCUIT DIAGRAM
+
+The circuit diagram consists of an Arduino Uno connected to a PIR sensor, an LDR, and a relay module. The PIR sensor provides digital input to detect motion, while the LDR provides analog input to measure light intensity. The relay module acts as a switch to control the electrical load.
+
+
+
+SOFTWARE DESIGN
+
+Arduino IDE is used to write and upload the program to the Arduino board. The program continuously reads input values from the PIR sensor and LDR. Conditional statements are used to decide whether the relay should be activated or deactivated. The logic ensures that the light turns ON only when both conditions (motion detected and low light) are satisfied.
+
+RESULTS AND OBSERVATIONS
+
+The automatic light control system was tested under different lighting conditions. The system successfully turned the light ON during motion in dark conditions and turned it OFF when sufficient light was present or no motion was detected. The project performed reliably and demonstrated effective energy-saving behavior.
+
+APPLICATIONS
+
+This system can be used in:
+
+Homes and apartments
+
+Offices and corridors
+
+Street lighting systems
+
+Parking areas
+
+Smart buildings
+
+CONCLUSION
+
+This project successfully demonstrates an automatic light control system using Arduino, PIR sensor, and LDR. The system helps in reducing energy consumption and provides a simple automation solution. The project also enhanced understanding of embedded systems and sensor-based control mechanisms.
+
+FUTURE ENHANCEMENTS
+
+The project can be enhanced by:
+
+Integrating IoT for remote monitoring
+
+Adding mobile application control
+
+Using wireless sensors
+
+Implementing smart home automation features
+
+REFERENCES
+
+Arduino Official Documentation
+
+Embedded Systems Learning Resources
+
+Sensor Datasheets
